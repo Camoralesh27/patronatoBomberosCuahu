@@ -1,0 +1,142 @@
+{
+    "title": {
+        "title": "Movil ACH | Oficinas Móviles y Edificios prefabricados en México"
+    },
+    "header": {
+        "call": "¡Llamanos ahora!"
+    },
+    "nav": {
+        "home": "Inicio",
+        "about": "Nosotros",
+        "products": "Productos <i class='bi bi-caret-down-fill'></i>",
+        "products1": "Oficinas Móviles",
+        "products2": "Dormitorios Móviles",
+        "products3": "Edificios Prefabricados",
+        "products4": "Contenedores",
+        "products5": "Remolques",
+        "testimonials": "Reseñas",
+        "contact": "Contacto",
+        "cta": "¡Estimación GRATIS!"
+    },
+    "hero": {
+        "title": "OFICINAS MÓVILES A <span class= 'hero--yellow'> TÚ MEDIDA</span>",
+        "subtitle": "Soluciones a la medida para tú proyecto ó tú estilo de vida",
+        "cta": "¡Contactanos!"
+    },
+    "about": {
+        "heading": "Tú solución en <span class='nosotros--blue'>Oficinas Móviles Y Edificios Prefabricados</span>",
+        "text1": "Somos una empresa Chihuahuense 100% comprometida en brindar un <span class='nosotros--blue'>servicio de calidad en la fabricación y venta de oficinas móviles, casetas prefabricadas, espacios modulares y contenedores.</span> Ofrecemos soluciones móviles para trabajos remotos y temporales, garantizando comodidad, seguridad y funcionalidad en cada uno de nuestros productos.",
+        "text2": "Nos especializamos en la fabricación a medida, adaptándonos a las necesidades específicas de cada cliente.",
+        "text3": "Contamos con envíos a toda la República Mexicana, asegurando rapidez y eficiencia en la entrega."
+    },
+    "features": {
+        "heading": "¡Descubre por qué somos <span class='features__heading--blue'> La Mejor Opción!</span>",
+        "item1": "Soluciones a la Medida y Alta Calidad",
+        "item2": "Entrega en Todo México",
+        "item3": "Garantía, Soporte y Flexibilidad"
+    },
+    "products": {
+        "heading": "Nuestros <span class='products__heading--blue'> Productos</span>",
+        "office": "Oficinas Moviles",
+        "dorm": "Dormitorios Moviles",
+        "buildings": "Edificios Prefabricados",
+        "containers": "Contenedores (Dumpster)",
+        "trailers": "Remolques",
+        "solar": "Paneles Solares",
+        "cta": "¡Cotiza ahora tú proyecto!"
+    },
+    "testimonials": {
+        "heading": "Lo que nuestros <span class='testimoniales__heading--blue'>Clientes dicen</span>",
+        "review1": {
+            "text": "Gracias a la flexibilidad y rapidez de entrega de las oficinas móviles, pudimos iniciar nuestro proyecto de construcción sin retrasos. La calidad y confort de las oficinas hizo que nuestro equipo se sintiera cómodo durante los meses de trabajo. ¡Totalmente recomendados!",
+            "author": "Juan Martínez",
+            "role": "Empresario en Construcción"
+        },
+        "review2": {
+            "text": "Necesitábamos oficinas móviles para organizar un evento en una locación remota. La adaptabilidad de los espacios a nuestras necesidades, desde el aire acondicionado hasta el diseño, fue excelente. El servicio al cliente fue excepcional y la instalación fue en tiempo récord.",
+            "author": "Laura Sánchez",
+            "role": "Gerente de Evento"
+        },
+        "review3": {
+            "text": "Las oficinas móviles que rentamos para nuestro equipo de trabajo en el campo fueron de gran ayuda. Estábamos buscando una opción práctica, funcional y económica. No solo cubrieron nuestras expectativas, sino que el soporte post-venta ha sido increíble.",
+            "author": "Carlos Gómez",
+            "role": "Dueño de Negocio en el Sector Minero"
+        }
+    },
+    "contact": {
+        "heading": "Aquí estamos para ti,<br><span class='contact__heading--yellow'> ¡Contactanos!</span>",
+        "subtitle": "¿Tienes alguna duda sobre nuestros servicios ó solo quieres hablar?<br> <span class='contact__subtitle--bold'>¡Mandanos un mensaje ó llámanos ahora para ayudarte!</span>",
+        "location": "Ubicación",
+        "contact": "Contactanos",
+        "call": "¡Llamanos ahora!",
+        "follow": "Siguenos"
+    },
+    "footer": {
+        "text": "Movil ACH Oficinas Móviles © <span id='year'></span> - Todos los derechos reservados"
+    },
+    "gallery": {
+        "title": "Galería",
+        "cta": "¡Contactanos! <i class='bi bi-arrow-right'></i>"
+    },
+    "oficinas-moviles": {
+        "title": "Móvil ACH | Venta de Oficinas Móviles en México",
+        "hero": {
+            "title": "Venta de <span class='hero--yellow'> Oficinas Móviles</span>",
+            "subtitle": "Oficinas móviles diseñadas para las necesidades de tú proyecto",
+            "cta": "¡Contacta a un asesor! <i class='bi bi-arrow-right'></i>"
+        },
+        "about": {
+            "title": "Venta de <span class='nosotros--blue'>Oficinas Móviles </span>en México",
+            "text": "<p>Diseñadas para brindar comodidad, seguridad y funcionalidad en cualquier ubicación. Ya sea para proyectos de construcción, eventos, minería o cualquier industria que requiera espacios de trabajo temporales, nuestras oficinas móviles son la solución ideal.</p><br><br><b>Características de Nuestras Oficinas Móviles:</b><ul><li>✅ Diseño Versátil: Espacios adaptables a tus necesidades, desde oficinas ejecutivas hasta salas de reuniones y módulos administrativos.</li><li>✅ Construcción Resistente: Fabricadas con materiales de alta calidad, ideales para soportar las condiciones climáticas de Chihuahua.</li><li>✅ Equipamiento Completo: Disponibles con aire acondicionado, iluminación, instalaciones eléctricas y mobiliario según tus requerimientos.</li><li>✅ Fácil Transporte e Instalación: Solución lista para usar en cualquier punto del estado.</li><li>✅ Seguridad Garantizada: Opciones con cerraduras reforzadas y ventanas con protecciones.</li></ul>"
+        }
+    },
+    "dormitorios-moviles": {
+        "title": "Móvil ACH | Venta de Dormitorios Móviles en México",
+        "hero": {
+            "title": "Venta de <span class='hero--yellow'>dormitorios moviles </span>a tú medida",
+            "subtitle": "Dormitorios móviles diseñadas para las necesidades de tú aventura",
+            "cta": "¡Contacta a un asesor! <i class='bi bi-arrow-right'></i>"
+        },
+        "about": {
+            "title": "Venta de <span class='nosotros--blue'>Dormitorios Móviles </span>en México",
+            "text": "<p>Diseñados para ofrecer descanso, seguridad y confort en cualquier lugar. Nuestros dormitorios móviles son la solución ideal para campamentos temporales, proyectos en zonas remotas, obras de construcción, minería o eventos especiales.</p><br><br><b>Características de Nuestros Dormitorios Móviles:</b><ul><li>✅ <b>Confort Garantizado:</b> Equipados con camas individuales o literas, aislamiento térmico y ventilación adecuada.</li><li>✅ <b>Diseño Funcional:</b> Distribuciones pensadas para aprovechar cada espacio sin sacrificar comodidad.</li><li>✅ <b>Construcción Robusta:</b> Resistentes a climas extremos y condiciones de trabajo exigentes.</li><li>✅ <b>Equipamiento Opcional:</b> Aire acondicionado, lockers, iluminación LED, enchufes eléctricos y más.</li><li>✅ <b>Fácil Transporte e Instalación:</b> Listos para colocarse donde los necesites, sin complicaciones.</li></ul> "
+        }
+    },
+    "edificios-prefabricados": {
+    "title": "Móvil ACH | Venta de Edificios Prefabricados en México",
+    "hero": {
+        "title": "Venta de <span class='hero--yellow'>Edificios prefabricados</span>",
+        "subtitle": "Edificios prefabricados diseñados para las necesidades de tú proyecto",
+        "cta": "¡Contacta a un asesor! <i class='bi bi-arrow-right'></i>"
+    },
+    "about": {
+        "title": "Venta de <span class='nosotros--blue'>Edificios Prefabricados </span>en México",
+        "text": "<p>Diseñados para brindar rapidez, eficiencia y resistencia en cualquier tipo de proyecto. Ya sea para oficinas, comedores, dormitorios, aulas, clínicas o espacios administrativos, nuestros edificios prefabricados se adaptan a tus necesidades con soluciones modernas y funcionales.</p><br><br><b>Características de Nuestros Edificios Prefabricados:</b><ul><li>✅ <b>Instalación Rápida:</b> Estructuras listas en tiempo récord, sin complicaciones ni obras prolongadas.</li><li>✅ <b>Diseño Modular:</b> Adaptables en tamaño y distribución interior, según el uso que requieras.</li><li>✅ <b>Materiales de Alta Calidad:</b> Aislantes térmicos, estructuras metálicas y paneles resistentes a la intemperie.</li><li>✅ <b>Acabados Profesionales:</b> Interiores cómodos y bien presentados, listos para trabajar o habitar.</li><li>✅ <b>Transporte Eficiente:</b> Enviamos e instalamos en cualquier punto del país con logística especializada.</li></ul>"
+    }
+    },
+    "contenedores": {
+        "title": "Móvil ACH | Venta de Contenedores Dumpsters en México",
+        "hero": {
+            "title": "VENTA DE <span class='hero--yellow'> CONTENEDORES </span>A TÚ MEDIDA",
+            "subtitle": "Contenedores diseñados para las necesidades de tú trabajo",
+            "cta": "¡Contacta a un asesor! <i class='bi bi-arrow-right'></i>"
+        },
+        "about": {
+            "title": "Venta de <span class='nosotros--blue'>contenedores (Dumpsters) </span>en México",
+            "text": "<p>Diseñados para ofrecer durabilidad, funcionalidad y facilidad de manejo en cualquier tipo de entorno. Ya sea en proyectos de construcción, remodelaciones, limpieza industrial o recolección de residuos comerciales, nuestros contenedores tipo dumpster son la solución práctica y resistente que necesitas.</p><br><br><b>Características de Nuestros Dumpsters:</b><ul><li>✅ <b>Alta Resistencia:</b> Fabricados con acero de calibre industrial, soportan residuos pesados y uso rudo continuo.</li><li>✅ <b>Capacidades Variadas:</b> Disponibles en diferentes tamaños para adaptarse al volumen de tu proyecto.</li><li>✅ <b>Fácil Carga y Descarga:</b> Diseñados para un manejo eficiente con sistemas de gancho o rodillo, compatibles con camiones estándar.</li><li>✅ <b>Pintura Anticorrosiva:</b> Protección contra el óxido, ideal para climas extremos como el de Chihuahua.</li></ul>"
+        }
+    },
+    "remolques": {
+        "title": "Móvil ACH | Venta de Trailas en México",
+        "hero": {
+            "title": "VENTA DE <span class='hero--yellow'> TRAILAS </span>A TÚ MEDIDA en México",
+            "subtitle": "Trailas diseñadas para las necesidades de tú trabajo ó próxima aventura.",
+            "cta": "¡Contacta a un asesor! <i class='bi bi-arrow-right'></i>"
+        },
+        "about": {
+            "title": "Venta de <span class='nosotros--blue'>Trailas </span>en México",
+            "text": "<p>Remolques diseñados para resistir las condiciones más exigentes, con estructuras reforzadas y funcionalidad superior. Nuestras trailas son ideales para transportar maquinaria, materiales de construcción, herramientas ó mercancía en general. Fabricamos cada remolque a medida, asegurando que se adapte perfectamente a tus necesidades de carga y maniobrabilidad.</p><br><br><b>Características de Nuestras Trailas:</b><ul><li>✅ <b>Estructura Reforzada:</b> Chasis soldado con precisión, ideales para trabajo pesado y uso diario.</li><li>✅ <b>Doble Eje:</b> Mayor estabilidad y capacidad de carga, perfectas para trayectos largos o terrenos irregulares.</li><li>✅ <b>Fabricación Personalizada:</b> Adaptamos el diseño a las medidas, tipo de carga y necesidades específicas del cliente.</li><li>✅ <b>Acabado de Alta Durabilidad:</b> Pintura anticorrosiva y acabados resistentes al clima extremo y al desgaste.</li><li>✅ <b>Seguridad y Maniobrabilidad:</b> Equipadas con sistema de luces, frenos y enganche compatible con la mayoría de los vehículos.</li></ul></div>"
+        }
+    }
+
+}

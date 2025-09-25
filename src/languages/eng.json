@@ -1,0 +1,142 @@
+{
+    "title": {
+      "title": "Movil ACH | Mobile Offices and Prefabricated Buildings in Mexico"
+    },
+    "header": {
+      "call": "Call us now!"
+    },
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "products": "Products <i class='bi bi-caret-down-fill'></i>",
+      "products1": "Mobile Offices",
+      "products2": "Mobile Dormitories",
+      "products3": "Prefabricated Buildings",
+      "products4": "Containers",
+      "products5": "Trailers",
+      "testimonials": "Testimonials",
+      "contact": "Contact",
+      "cta": "FREE Estimate!"
+    },
+    "hero": {
+      "title": "<span class= 'hero--yellow'>CUSTOM </span> MOBILE OFFICES",
+      "subtitle": "Tailored solutions for your project or lifestyle",
+      "cta": "Contact us!"
+    },
+    "about": {
+      "heading": "Your solution in <span class='nosotros--blue'> Mobile Offices and Prefabricated Buildings</span>",
+      "text1": "We are a 100% Chihuahuan company committed to <span class='nosotros--blue'> providing high-quality service in the manufacturing and sale of mobile offices, prefabricated booths, modular spaces, and containers.</span> We offer mobile solutions for remote and temporary work, ensuring comfort, safety, and functionality in every product.",
+      "text2": "We specialize in custom fabrication, adapting to the specific needs of each client.",
+      "text3": "We ship throughout Mexico, ensuring fast and efficient delivery."
+    },
+    "features": {
+      "heading": "Discover why <span class='features__heading--blue'>we are the Best Option!</span>",
+      "item1": "Custom Solutions and High Quality",
+      "item2": "Nationwide Delivery",
+      "item3": "Warranty, Support, and Flexibility"
+    },
+    "products": {
+      "heading": "Our <span class='products__heading--blue'>Products </span>",
+      "office": "Mobile Offices",
+      "dorm": "Mobile Dormitories",
+      "buildings": "Prefabricated Buildings",
+      "containers": "Containers (Dumpster)",
+      "trailers": "Trailers",
+      "solar": "Solar Panels",
+      "cta": "Get a quote for your project!"
+    },
+    "testimonials": {
+      "heading": "What our <span class='testimoniales__heading--blue'>Clients say</span>",
+      "review1": {
+        "text": "Thanks to the flexibility and fast delivery of the mobile offices, we were able to start our construction project without delays. The quality and comfort of the offices made our team feel comfortable during the months of work. Highly recommended!",
+        "author": "Juan Martínez",
+        "role": "Construction Business Owner"
+      },
+      "review2": {
+        "text": "We needed mobile offices to organize an event in a remote location. The adaptability of the spaces to our needs, from air conditioning to design, was excellent. Customer service was outstanding and installation was done in record time.",
+        "author": "Laura Sánchez",
+        "role": "Event Manager"
+      },
+      "review3": {
+        "text": "The mobile offices we rented for our field team were extremely helpful. We were looking for a practical, functional, and economical option. Not only did they meet our expectations, but the post-sale support has been incredible.",
+        "author": "Carlos Gómez",
+        "role": "Mining Business Owner"
+      }
+    },
+    "contact": {
+      "heading": "We’re here for you, <br><span class='contact__heading--yellow'>Contact us!</span>",
+      "subtitle": "Do you have questions about our services or just want to talk? <br> <span class='contact__subtitle--bold'>Send us a message or call us now and we’ll help you!</span>",
+      "location": "Location",
+      "contact": "Contact us",
+      "call": "Call us now!",
+      "follow": "Follow us"
+    },
+    "footer": {
+      "text": "Movil ACH Mobile Offices © <span id='year'></span> - All rights reserved"
+    },
+    "gallery": {
+        "title": "Galery",
+        "cta": "Contact us! <i class='bi bi-arrow-right'></i>"
+    },
+    "oficinas-moviles": {
+      "title": "Móvil ACH | Mobile Office Sales in Mexico",
+      "hero": {
+          "title": "Sale of <span class='hero--yellow'>Mobile Offices</span>",
+          "subtitle": "Mobile offices designed for the needs of your project",
+          "cta": "Contact an advisor! <i class='bi bi-arrow-right'></i>"
+      },
+      "about": {
+          "title": "Sale of <span class='nosotros--blue'>Mobile Offices</span> in Mexico",
+          "text": "<p>Designed to provide comfort, safety, and functionality in any location. Whether for construction projects, events, mining, or any industry that requires temporary workspaces, our mobile offices are the ideal solution.</p><br><br><b>Features of Our Mobile Offices:</b><ul><li>✅ Versatile Design: Spaces adaptable to your needs, from executive offices to meeting rooms and administrative modules.</li><li>✅ Durable Construction: Built with high-quality materials, ideal for withstanding Chihuahua's weather conditions.</li><li>✅ Fully Equipped: Available with air conditioning, lighting, electrical installations, and furniture according to your requirements.</li><li>✅ Easy Transport and Installation: Ready-to-use solution at any point in the state.</li><li>✅ Guaranteed Safety: Options with reinforced locks and protected windows.</li></ul>"
+      }
+    },
+    "dormitorios-moviles": {
+    "title": "Móvil ACH | Sale of Mobile Dormitories in Mexico",
+    "hero": {
+        "title": "Sale of <span class='hero--yellow'>Mobile Dormitories</span> tailored to your needs",
+        "subtitle": "Mobile dormitories designed to meet the needs of your adventure",
+        "cta": "Contact an advisor! <i class='bi bi-arrow-right'></i>"
+    },
+    "about": {
+        "title": "Sale of <span class='nosotros--blue'>Mobile Dormitories</span> in Mexico",
+        "text": "<p>Designed to offer rest, safety, and comfort anywhere. Our mobile dormitories are the ideal solution for temporary camps, remote projects, construction sites, mining, or special events.</p><br><br><b>Features of Our Mobile Dormitories:</b><ul><li>✅ <b>Guaranteed Comfort:</b> Equipped with single beds or bunk beds, thermal insulation, and proper ventilation.</li><li>✅ <b>Functional Design:</b> Layouts designed to maximize space without sacrificing comfort.</li><li>✅ <b>Robust Construction:</b> Built to withstand extreme climates and demanding work conditions.</li><li>✅ <b>Optional Equipment:</b> Air conditioning, lockers, LED lighting, electric outlets, and more.</li><li>✅ <b>Easy Transport and Installation:</b> Ready to be placed wherever you need them, hassle-free.</li></ul> "
+    }
+},
+    "edificios-prefabricados": {
+      "title": "Móvil ACH | Sale of Prefabricated Buildings in Mexico",
+      "hero": {
+        "title": "Sale of <span class='hero--yellow'>Prefabricated Buildings</span>",
+        "subtitle": "Prefabricated buildings designed for the needs of your project",
+        "cta": "Contact an advisor! <i class='bi bi-arrow-right'></i>"
+      },
+    "about": {
+        "title": "Sale of <span class='nosotros--blue'>Prefabricated Buildings</span> in Mexico",
+        "text": "<p>Designed to provide speed, efficiency, and durability for any type of project. Whether for offices, dining halls, dormitories, classrooms, clinics, or administrative spaces, our prefabricated buildings adapt to your needs with modern and functional solutions.</p><br><br><b>Features of Our Prefabricated Buildings:</b><ul><li>✅ <b>Quick Installation:</b> Structures ready in record time, without complications or long construction times.</li><li>✅ <b>Modular Design:</b> Customizable in size and interior layout according to your needs.</li><li>✅ <b>High-Quality Materials:</b> Thermal insulation, metal structures, and weather-resistant panels.</li><li>✅ <b>Professional Finishes:</b> Comfortable and well-finished interiors, ready to work or live in.</li><li>✅ <b>Efficient Transportation:</b> We deliver and install anywhere in the country with specialized logistics.</li></ul>"
+      }
+    },
+    "contenedores": {
+      "title": "Móvil ACH | Sale of Dumpster Containers in Mexico",
+      "hero": {
+        "title": "SALE OF <span class='hero--yellow'> CONTAINERS </span>TAILORED TO YOU",
+        "subtitle": "Containers designed for the needs of your work",
+        "cta": "Contact an advisor! <i class='bi bi-arrow-right'></i>"
+      },
+      "about": {
+          "title": "Sale of <span class='nosotros--blue'>Dumpster Containers</span> in Mexico",
+          "text": "<p>Designed to offer durability, functionality, and ease of handling in any type of environment. Whether for construction projects, renovations, industrial cleaning, or commercial waste collection, our dumpster-style containers are the practical and tough solution you need.</p><br><br><b>Features of Our Dumpsters:</b><ul><li>✅ <b>High Resistance:</b> Made from industrial-grade steel, they withstand heavy waste and continuous rough use.</li><li>✅ <b>Varied Capacities:</b> Available in different sizes to suit your project's volume.</li><li>✅ <b>Easy Loading and Unloading:</b> Designed for efficient handling with hook or roller systems, compatible with standard trucks.</li><li>✅ <b>Anti-Corrosive Paint:</b> Protection against rust, ideal for extreme climates like Chihuahua.</li></ul>"
+      }
+    },
+    "remolques": {
+      "title": "Móvil ACH | Trailer Sales in Mexico",
+      "hero": {
+          "title": "CUSTOM <span class='hero--yellow'> TRAILERS </span>FOR SALE in Mexico",
+          "subtitle": "Trailers designed for your job's specific needs or your next adventure.",
+          "cta": "Contact an advisor! <i class='bi bi-arrow-right'></i>"
+      },
+      "about": {
+          "title": "Custom <span class='nosotros--blue'>Trailer </span>Sales in Mexico",
+          "text": "<p>Trailers built to withstand the toughest conditions, with reinforced structures and superior functionality. Our trailers are ideal for transporting machinery, construction materials, tools, or general goods. Each trailer is custom-built to perfectly match your load capacity and maneuverability needs.</p><br><br><b>Features of Our Trailers:</b><ul><li>✅ <b>Reinforced Structure:</b> Precisely welded chassis, ideal for heavy-duty and daily use.</li><li>✅ <b>Dual Axle:</b> Greater stability and load capacity, perfect for long hauls or rough terrain.</li><li>✅ <b>Custom Fabrication:</b> We tailor the design to the client's specific dimensions, cargo type, and needs.</li><li>✅ <b>High-Durability Finish:</b> Anti-corrosion paint and finishes resistant to harsh weather and wear.</li><li>✅ <b>Safety and Maneuverability:</b> Equipped with lighting system, brakes, and hitch compatible with most vehicles.</li></ul></div>"
+        }
+    }
+  }
+  
