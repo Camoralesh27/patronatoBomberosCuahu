@@ -18,6 +18,13 @@
         @include m.phone {
             grid-template-columns: 1fr;
         }
+
+        .feature:nth-child(2) .feature__icon {
+          background-color: v.$yellow-2;
+        }
+        .feature:nth-child(3) .feature__icon {
+          background-color: v.$blue-2;
+        }
     }
 }
 
@@ -31,7 +38,6 @@
     margin: 0 auto;
 
     &__icon {
-        background-color: v.$white;
         padding: 3rem;
         width: 12rem;
         height: 12rem;
@@ -40,10 +46,11 @@
         align-items: center;
         border-radius: 50rem;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        background-color: v.$yellow-2;
+        background-color: v.$red-2;
 
         &-img {
-            width: 7rem;
+            font-size: 5.5rem;
+            color: v.$white;
 
             @include m.phone {
                 width: 7rem;

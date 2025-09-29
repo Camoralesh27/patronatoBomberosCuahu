@@ -17,7 +17,7 @@
 
     /* PRIMER CONTACTO */
     &__info {
-        background-color: v.$gray-4;
+        background-color: v.$gray-5;
         display: flex;
         justify-content: space-between;
         color: v.$white;
@@ -47,7 +47,7 @@
         align-items: center;
 
         & i {
-            color: v.$yellow-2;
+            color: v.$red-1;
         }
     }
 
@@ -92,7 +92,7 @@
     
 
     &__logo {
-        width: 10rem;
+        width: 25rem;
         height: 7.5rem;
         display: flex;
         align-items: center;
@@ -104,7 +104,19 @@
         }
 
         &-img {
-            width: 17rem;
+            width: 6rem;
+        }
+
+        &-line {
+            width: 3px;
+            height: 5.5rem;
+            background-color: v.$black;
+        }
+
+        &-text {
+            color: v.$black;
+            font-weight: 600;
+            font-size: 1.2rem;
         }
     }
 
@@ -137,7 +149,7 @@
     }
 
     &__button {
-        @include m.boton(v.$yellow-2,v.$black);
+        @include m.boton(v.$red-2,v.$white);
     }
 }
 
@@ -222,12 +234,21 @@
     }
 
     &__logo{
+        width: 25rem;
         display: flex;
         align-items: center;
         gap: 1rem;
 
         &-img {
             width: 12rem;
+
+            @include m.phone {
+                width: 6rem;
+            }
+
+            @include m.tablet {
+                width: 6rem;
+            }
         }
 
         &-text {

@@ -33,14 +33,15 @@
     $yellow-form: rgb(255, 248, 232);
     $blue-1: #3B9CD7;
     $blue-2: #116BA2;
-    $blue-3: #012840;
-    $red-1: #E04859;
+    $blue-3: #1F2937;
+    $red-1: #D32F2F;
     $red-2: #BF1C2E;
     $red-3: #95101F;
     $gray-1: #F2F2F2;
     $gray-2: #DBDBDB;
     $gray-3: #BEBEBE;
-    $gray-4: #2A2A2A;
+    $gray-4: #767676;
+    $gray-5: #4D4D4D;
     $shadow: rgba(31, 31, 31, 0.75);
     $background: #252525;
     $blue-background: rgba(1, 40, 64, 0.70);
@@ -53,7 +54,7 @@
     $white-transparent: rgba(243, 243, 243, 0.7);
 
 // BOX-SHADOW
-    $box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30);
+    $box-shadow: 5px 3px 7px 0px rgba(0, 0, 0, 0.30);
 
 // BORDER-RADIUS
     $border-radius: 2rem;

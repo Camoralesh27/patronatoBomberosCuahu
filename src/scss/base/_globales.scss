@@ -109,11 +109,21 @@ fieldset {
 
 [class$="__subtitle"] {
     font-size: v.$normal-font-size;
-    color: v.$black;
+    color: v.$gray-4;
     text-align: center;
     margin-top: 1rem;
     line-height: 3rem;
+    max-width: 85%;
+    margin-left:  auto;
+    margin-right: auto;
 }
+
+[class$="--red"] {
+    color: v.$red-1;
+    font-weight: 500;
+}
+
+/* ---- LEGACY ------- */
 
 [class$="--blue"] {
     color: v.$blue-1;

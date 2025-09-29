@@ -1,7 +1,7 @@
 {
-  "name": "movilach",
+  "name": "patronatoBomberosCuahutemoc",
   "version": "1.0.0",
-  "description": "Website MOVILE ACH Oficinas Móviles",
+  "description": "Website Patronato del Heroico cuerpo de bomberos Cuahutemoc",
   "type": "module",
   "main": "gulpfile.js",
   "scripts": {

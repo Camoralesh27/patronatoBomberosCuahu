@@ -86,10 +86,114 @@
 <body>
     
     <!-- ======= header ======= -->
-    @@include('./partials/header.html')
+    <header class="header" id="home">
+    <!-- header -->
+    <div class="header__info">
+        <div class="header__info-location">
+            <i class="fa-solid fa-envelope"></i>
+            <p class="header__info-location-text">info@patronatobomberoscuauhtemoc.org</p>
+        </div>
+
+
+        <div class="header__info-right">
+            <div class="header__info-phone">
+                <i class="fas fa-phone"></i>
+                <span class="header__info-phone-text"><span data-section="header" data-value="call">Llamanos:</span> <a class="header__info-phone-number" href="tel: +54 614 243 1521">625 000 0000</a> </span>
+            </div>
+
+
+            <!-- Change language -->
+            <!-- <div>
+                <input type="checkbox" class="language" name="flags" id="flags" data-language="eng">
+
+                <div class="language__display">
+                    <label class="language__container" for="flags">
+                        <div class="language__circle">
+                            <img class="language__img esp" src="./img/mexFlag.png" alt="Mexico Flag">
+
+                            <img class="language__img eng" src="./img/usFlag.png" alt="US Flag">
+                        </div>
+                    </label>
+                </div>
+            </div> -->
+        </div>
+
+    </div>    
+</header>
 
     <!-- ======= nav ======= -->
-    @@include('./partials/nav.html')
+    <!-- ======= nav Desktop ======= -->
+<nav class="nav">  
+    <div class="nav__logo">
+        <a href="index.html#home" class="nav__logo-link">
+            <img src="./img/logo.png" alt="Logo" class="nav__logo-img">
+            <div class="nav__logo-line"></div>
+            <p class="nav__logo-text">Patronato Del Heróico Cuerpo de Bomberos y Rescate</p>
+        </a>
+    </div>
+
+    <ul class="nav__links">
+        <li class="nav__links-item"><a href="index.html#home" class="nav__links-link" data-section="nav" data-value="home">Inicio</a></li>
+        <li class="nav__links-item"><a href="index.html#nosotros" class="nav__links-link" data-section="nav" data-value="about">Nosotros</a></li>
+        <li class="nav__links-item"><a href="index.html#actividades" class="nav__links-link" data-section="nav" data-value="testimonials">Actividades</a></li>
+        <li class="nav__links-item"><a href="index.html#contacto" class="nav__links-link" data-section="nav" data-value="contact">Contacto</a></li>
+    </ul>
+
+    <a href="index.html#contacto" class="nav__button" data-section="nav" data-value="cta">
+        Contactanos 
+
+        <i class="bi bi-arrow-right"></i>
+    </a>
+</nav> 
+
+<!-- ======= nav Mobile ======= -->
+<div class="navM">
+    <div class="navM__data">
+        <a class="navM__logo" href="index.html#home">
+            <img class="navM__logo-img" src="./img/logo.png" alt="logo">
+            <div class="nav__logo-line"></div>
+            <p class="nav__logo-text">Patronato Del Heróico Cuerpo de Bomberos y Rescate</p>
+        </a>
+
+        <div class="navM__toggle" id="navM-toggle">
+            <i class="fa-solid fa-bars navM__burger"></i>
+            <i class="fa-solid fa-x navM__close"></i>
+        </div>
+    </div>
+
+    <!-- ======= NAV MENU ======= -->
+    <nav class="navM__menu" id="navM-menu">
+        <ul class="navM__list">
+            <li class="navM__item">
+                <a href="index.html#home" class="navM__link" data-section="nav" data-value="home">Inicio</a>
+            </li>
+
+            <li class="navM__item">
+                <a href="index.html#nosotros" class="navM__link" data-section="nav" data-value="about">Nosotros</a>
+            </li>
+
+            <li class="navM__item">
+                <a href="index.html#actividades" class="navM__link" data-section="nav" data-value="testimonials">Actividades</a>
+            </li>
+
+            <li class="navM__item">
+                <a href="index.html#contacto" class="navM__link" data-section="nav" data-value="contact">Contacto</a>
+            </li>
+
+            <li class="navM__item">
+                <a href="index.html#home" target="_blank" class="navM__link">
+                    <i class="fa-brands fa-facebook navM__icon"></i>
+                </a>
+
+                <a href="index.html#home" target="_blank" class="navM__link">
+                    <i class="fa-brands fa-instagram navM__icon"></i>
+                </a>
+            </li>
+        </ul>
+
+        
+    </nav>
+</div>
     
 
     <!-- ======= hero ======= -->
@@ -287,10 +391,75 @@
 
 
     <!-- ======= Footer ======= -->
-    @@include('./partials/footer.html')
+    <!-- ======= footer ======= -->
+<footer class="footer" id="footer">
+    <div class="footer__content">
+        <div class="footer__column footer__column--info">
+
+
+            <div class="footer__logo-container">
+                <img src="./img/logo.png" alt="logo" class="footer__logo">
+                
+
+                <div class="footer__title-container">
+                    <p class="footer__title">Patronato del Heroico Cuerpo de Bomberos A.C.</p>
+                    <p class="footer__subtitle">Ciudad Cuauhtémoc</p>
+                </div>
+            </div>
+
+            
+            
+            <p class="footer__text">
+                Comprometidos con la seguridad y bienestar de nuestra comunidad las 24hrs del día, los 365 días del año.
+            </p>
+        </div>
+
+        <div class="footer__column footer__column--links">
+            <h3 class="footer__heading">Enlaces Rápidos</h3>
+            <ul class="footer__nav-list">
+                <li class="footer__nav-item">
+                    <a href="#" class="footer__nav-link">Inicio</a>
+                </li>
+                <li class="footer__nav-item">
+                    <a href="#" class="footer__nav-link">Nosotros</a>
+                </li>
+                <li class="footer__nav-item">
+                    <a href="#" class="footer__nav-link">Actividades</a>
+                </li>
+                <li class="footer__nav-item">
+                    <a href="#" class="footer__nav-link">Contacto</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer__column footer__column--emergency">
+            <h3 class="footer__heading">Emergencias</h3>
+            <p class="footer__emergency-label">Línea de Emergencia:</p>
+            <p class="footer__emergency-number">911</p>
+            <p class="footer__emergency-availability">Disponible 24/7</p>
+        </div>
+    </div>
+
+    <div class="footer__line"></div>
+
+    <div class="footer__copyright" data-section="footer" data-value="text" >
+        Patronato de Heróico Cuerpo de Bomberos de la Ciudad Cuauhtémoc © <span id="year"></span> - Todos los derechos reservados  
+    </div>
+</footer>
+
+
 
     <!-- ======= Scripts ======= -->
-    @@include('./partials/scripts.html')
+    <!-- ==== boton whatsapp ==== -->
+<a href="https://wa.me/526250000000" class="whatsapp-button" target="_blank" title="Enviar mensaje por WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- ==== main JS ==== -->
+<script src="./js/app.js"></script>
+
+<!-- ==== FontAwesome ==== -->
+<script src="https://kit.fontawesome.com/09c3aa2d96.js" crossorigin="anonymous"></script>
     
 </body>
 </html>

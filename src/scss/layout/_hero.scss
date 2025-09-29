@@ -63,7 +63,7 @@
     }
 
     &__button {
-        @include m.boton(v.$yellow-2, v.$black);
+        @include m.boton(v.$red-1, v.$white);
 
         & {
             margin-top: 2rem;
