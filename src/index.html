@@ -109,19 +109,6 @@
         <h3 class="nosotros__title">¨<span class="nosotos__title--red">Proteger lo que más importa</span>, nuestra <span class="nosotros__title--red">gente</span>, nuestros <span class="nosotros__title--red">hogares</span>  y nuestro <span class="nosotros__title--red">futuro</span>¨</h3>
         
         <div class="nosotros__line"></div>
-
-        <!-- <div class="nosotros__grid">
-            <div class="nosotros__box">
-                    <h2 class="nosotros__heading" data-section="about" data-value="heading">Nuestro <span class="nosotros--red"> <br>Objetivo</span></h2>
-            </div>
-    
-            <div class="nosotros__contenido">
-            
-                <p class="nosotros__text" data-section="about" data-value="text1">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum labore debitis, laborum assumenda, laudantium <span class="nosotros--red">Lorem ipsum dolor, sit amet consectetur</span> Lorem ipsum, dolor sit voluptas molestiae quasi adipisci beatae eaque rem quaerat. Lorem ipsum dolor sit amet consectetur.
-                </p>
-            </div>
-        </div> -->
     </section>
 
     <!-- ======= features ======= -->
@@ -141,7 +128,7 @@
                 </div>
 
                 <h3 class="feature__title" data-section="features" data-value="item1">Nuestra Misión</h3>
-                <p class="feature__text">Ser un organismo de la sociedad civil, qué en coordinación con las autoridades municipales y la ciudadanía, gestione, recaude y administre recursos económicos, materiales y humanos adicionales. Para asegurar una capacidad de respuesta óptima del cuerpo de Bomberos ante las diversas emergencias, así como promover una sólida cultura de prevención y protección civil en el municipio.</p>
+                <p class="feature__text">Ser un organismo de la sociedad civil que, en coordinación con las autoridades municipales y la ciudadanía, gestione, recaude y administre recursos humanos, materiales y económicos adicionales. Para asegurar una capacidad de respuesta óptima del cuerpo de Bomberos ante las diversas emergencias, y promover una sólida cultura de prevención y protección civil en el municipio.</p>
 
             </div>
 
@@ -174,7 +161,7 @@
     <section class="activities" id="actividades">
         <div class="activities__box">
             <h2 class="activities__heading" data-section="activities" data-value="heading"> <span class="activities__heading--red">Actividades</span> Recientes</h2> 
-            <p class="activities__subtitle" data-section="contact" data-value="subtitle">Gestiones y Actividades realizadas al beneficio del departamento de Bomberos de la ciudad  Cuauhtémoc, Chih.</p>
+            <p class="activities__subtitle" data-section="contact" data-value="subtitle">Gestiones y Actividades realizadas al beneficio del departamento de Bomberos de Cuauhtémoc, Chih.</p>
         </div>
 
         <div class="gallery">
@@ -212,7 +199,7 @@
 
                     <div class="gallery__item-info">
                         <h3 class="gellery__item-heading">Equipo de rescate</h3>
-                        <p class="gallery__item-text"><span class="gallery__item-text--bold">Gestión:</span> Plantas de Atmosfera Controlada de Productores de Chihuahua</p>
+                        <p class="gallery__item-text"><span class="gallery__item-text--bold">Gestión:</span> Plantas de Atmósfera Controlada de Productores de Chihuahua</p>
                     </div>
 
                     </div>
@@ -231,7 +218,7 @@
 
                     <div class="gallery__item-info">
                         <h3 class="gellery__item-heading">Equipo de protección</h3>
-                        <p class="gallery__item-text"><span class="gallery__item-text--bold">Gestión:</span> Plantas de Atmosfera Controlada de Productores de Chihuahua</p>
+                        <p class="gallery__item-text"><span class="gallery__item-text--bold">Gestión:</span> Plantas de Atmósfera Controlada de Productores de Chihuahua</p>
                     </div>
 
                     </div>
@@ -250,7 +237,7 @@
 
                     <div class="gallery__item-info">
                         <h3 class="gellery__item-heading">Pipa</h3>
-                        <p class="gallery__item-text"><span class="gallery__item-text--bold">Gestión:</span> Consejo de Estacionometros</p>
+                        <p class="gallery__item-text"><span class="gallery__item-text--bold">Gestión:</span> Consejo de Estacionómetros</p>
                     </div>
 
                     </div>
@@ -306,30 +293,73 @@
             </p>
 
             <div class="contact__grid">
-            
+
                 <!-- Left: Form -->
-                <form class="contact__form" action="#" method="post" novalidate>
+                <form class="contact__form" action="https://api.web3forms.com/submit" method="POST">
+                    <!-- <input type="hidden" name="_subject" value="Nuevo mensaje de Sitio Web Patronato Bomberos"> -->
+                    <input type="hidden" name="access_key" value="1d044ace-78d1-43da-8245-707abe43818e">
+                    <input type="hidden" name="subject" value="Nuevo mensaje del Sitio Web Patronato Bomberos">
+                    
                     <h3 class="contact__form-title">Envíanos un Mensaje</h3>
 
                     <div class="contact__field">
-                    <label class="contact__label" for="fullName">Nombre Completo</label>
-                    <input class="contact__input" type="text" id="fullName" name="fullName" placeholder="Tu nombre completo" required>
+                        <label class="contact__label" for="name">Nombre Completo</label>
+                        <input
+                        class="contact__input"
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Tu nombre completo"
+                        maxlength="100"
+                        autocomplete="name"
+                        required
+                        >
+                        <span class="contact__error" aria-live="polite"></span>
                     </div>
 
                     <div class="contact__field">
-                    <label class="contact__label" for="email">Correo Electrónico</label>
-                    <input class="contact__input" type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                        <label class="contact__label" for="email">Correo Electrónico</label>
+                        <input
+                        class="contact__input"
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Tu correo electrónico"
+                        maxlength="160"
+                        autocomplete="email"
+                        required
+                        >
+                        <span class="contact__error" aria-live="polite"></span>
                     </div>
 
                     <div class="contact__field">
-                    <label class="contact__label" for="message">Mensaje</label>
-                    <textarea class="contact__textarea" id="message" name="message" rows="6" placeholder="Tu mensaje" required></textarea>
+                        <label class="contact__label" for="message">Mensaje</label>
+                        <textarea
+                        class="contact__textarea"
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Tu mensaje"
+                        maxlength="2000"
+                        required
+                        ></textarea>
+                        <span class="contact__error" aria-live="polite"></span>
                     </div>
 
-                    <button class="contact__button" type="submit">
-                    <span class="contact__button-icon" aria-hidden="true">✈</span>
-                    Enviar Mensaje
+                    <!-- Honeypot Spam Protection -->
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                    <!-- <input type="text" name="_honey" style="display:none"> -->
+
+                    <!-- hCaptcha: Recommended for Advanced Spam Protection. -->
+                    <div class="h-captcha" data-captcha="true"></div>
+
+                    <button class="contact__button" type="submit" disabled>
+                        <span class="contact__button-icon" aria-hidden="true">✈</span>
+                        Enviar Mensaje
                     </button>
+
+                    <!-- Aviso tipo "toast" -->
+                    <div class="contact__flash" id="contactFlash" aria-live="polite" hidden></div>
                 </form>
 
                 <!-- Right: Info -->
@@ -349,10 +379,10 @@
                         <span class="contact__icon" aria-hidden="true">📍</span>
                         <div class="contact__item-content">
                         <span class="contact__item-head">Dirección</span>
-                        <span class="contact__item-text">
+                        <span class="contact__item-text"><a href="https://maps.app.goo.gl/BpY9tyvCUgPhtAAy5" class="contact__item-link">
                             10 de Mayo #2210<br>
                             Col. Progreso, ciudad Cuauhtémoc<br>
-                            Chihuahua, México
+                            Chihuahua, México</a>
                         </span>
                         </div>
                     </li>
@@ -361,8 +391,8 @@
                         <span class="contact__icon" aria-hidden="true">✉</span>
                         <div class="contact__item-content">
                         <span class="contact__item-head">Correo Electrónico</span>
-                        <a class="contact__link" href="mailto:patronato.bomberoscuauhtemoc@gmail.com">
-                            patronato.bomberoscuauhtemoc@gmail.com
+                        <a class="contact__link" href="mailto:contacto@patronatobomberoscuauhtemoc.org">
+                            contacto@patronatobomberoscuauhtemoc.org
                         </a>
                         </div>
                     </li>

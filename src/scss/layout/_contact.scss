@@ -217,215 +217,45 @@
   }
 }
 
+/* ------------- FORM VALIDATION ------------- */
 
-
-
-
-
-
-/* .contact {
-  overflow-x: hidden;
-
-  &__container {
-    max-width: 1200px;
-    margin-inline: auto;
-    padding: 6rem 2rem 8rem;
-
-    @include m.phone {
-      padding: 4rem 1.6rem 6rem;
-    }
+/* ---------- Mensajes de error (solo texto, sin bordes rojos) ---------- */
+  .contact__error{
+    display: none;
+    color: #fff;
+    font-size: 1.2rem;
+    background-color: #d93025;
+    margin-top: 4px;
+    width: max-content;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  .contact__error.is-visible{
+    display: inline-block;
   }
 
-  &__heading {
-    color: v.$red-1;
+  /* ---------- Botón deshabilitado ---------- */
+  .contact__button[disabled]{
+    opacity: .6;
+    cursor: not-allowed;
   }
 
-  &__subtitle {
+  /* ---------- Aviso "toast" inferior ---------- */
+  .contact__flash{
+    position: fixed;
+    left: 50%;
+    bottom: 10rem;
+    transform: translateX(-50%);
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 0 8px 24px rgba(0,0,0,.18);
+    background: #0e8f3b;
+    color: #fff;
+    z-index: 9999;
     text-align: center;
-    color: v.$gray-4;
-    max-width: 62ch;         
-    margin: 0 auto 4rem;
-  }
 
-  &__grid {
-    display: grid;
-    gap: 3rem;
-    grid-template-columns: 1.2fr .8fr;
-
-    @include m.phone  {
-      grid-template-columns: 1fr;
-    }
-
-    @include m.tablet {
-      grid-template-columns: 1fr;
+    &--400 {
+      font-weight: 400;
     }
   }
-
-  &__form, &__info {
-    width: 100%;
-    box-sizing: border-box;
-    border-radius: v.$border-radius;
-    padding: 2.4rem;
-    box-shadow: v.$box-shadow;
-  }
-
-  &__form-title,
-  &__info-title {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-
-  &__form {
-    background-color: v.$yellow-form;
-  }
-
-  &__field {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 2rem;
-  }
-
-  &__info {
-    background-color: v.$blue-3;
-    color: v.$white;
-  }
-} */
-
-
-
-
-
-
-
-/* .contact {
-  
-  overflow-x: hidden;
-
-  &__container {
-    max-width: 1200px;
-    margin-inline: auto;
-    padding: 6rem 2rem 8rem;
-
-    @include m.phone {
-      padding: 4rem 1.6rem 6rem;
-    }
-  }
-
-  &__subtitle {
-    font-size: v.$normal-font-size;
-    text-align: center;
-    color: v.$gray-4;
-    max-width: 62ch;         
-    margin: 0 auto 4rem;
-
-    @include m.phone { max-width: 90%; }
-  }
-
-  &__grid {
-    display: grid;
-    gap: 3rem;
-    grid-template-columns: 1.2fr .8fr;
-
-    > * { min-width: 0; }
-
-    @include m.tablet { grid-template-columns: 1fr; }
-    @include m.phone  { grid-template-columns: 1fr; gap: 2rem; }
-  }
-
-  &__form,
-  &__info {
-    width: 100%;
-    box-sizing: border-box;
-    border-radius: v.$border-radius;
-    padding: 2.4rem;
-    box-shadow: v.$box-shadow;
-
-    @include m.tablet {
-      max-width: 760px;        
-      margin-inline: auto;
-      padding: 2rem;
-    }
-
-    @include m.phone {
-      max-width: 100%;
-      padding: 1.6rem;
-    }
-  }
-
-  &__form {
-    background: v.$yellow-form;
-    color: v.$black;
-  }
-
-  &__input,
-  &__textarea {
-    width: 100%;
-  }
-
-  &__info {
-    background: linear-gradient(0deg, v.$blue-background, v.$blue-background), v.$background;
-    border: 1px solid rgba(255,255,255,.08);
-    color: v.$white;
-  }
-
-  &__heading { font-size: v.$h2-font-size; }
-  &__form-title,
-  &__info-title { font-size: v.$h3-font-size; }
-
-  @include m.tablet {
-    &__heading { font-size: v.$h2-font-size-mobile; }
-    &__form-title,
-    &__info-title { font-size: v.$h3-font-size-mobile; }
-  }
-
-  @include m.phone {
-    &__heading { font-size: v.$h2-font-size-mobile; }
-  }
-
-  &__list { display: grid; gap: 1.6rem; margin: 0 0 2rem; padding: 0; list-style: none; }
-
-  &__item {
-    display: grid;
-    grid-template-columns: 3.6rem 1fr;
-    gap: 1.2rem;
-    align-items: start;
-    padding: 1.2rem;
-    border-radius: 1.2rem;
-    background: rgba(255,255,255,.04);
-    border: 1px solid rgba(255,255,255,.06);
-
-    @include m.phone { grid-template-columns: 3.2rem 1fr; }
-  }
-
-  &__icon {
-    width: 3.6rem; height: 3.6rem;
-    display: grid; place-items: center;
-    font-size: 1.8rem;
-    border-radius: 50%;
-    background: rgba(v.$blue-2, .18);
-
-    @include m.phone {
-      width: 3.2rem; height: 3.2rem; font-size: 1.6rem;
-    }
-  }
-
-  &__item-text,
-  &__link {
-    overflow-wrap: anywhere;
-    word-break: break-word;
-  }
-
-  &__social-row {
-    display: flex; gap: 1.2rem; flex-wrap: wrap;
-  }
-
-  &__social-btn {
-    width: 3.6rem; height: 3.6rem;
-    display: grid; place-items: center;
-    border-radius: 50%;
-    background: v.$white; color: v.$black; font-weight: 800;
-    text-decoration: none; box-shadow: v.$box-shadow;
-
-    @include m.phone { width: 3.2rem; height: 3.2rem; }
-  }
-}  */
