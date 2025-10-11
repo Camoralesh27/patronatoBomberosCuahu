@@ -49,6 +49,11 @@
         & i {
             color: v.$red-1;
         }
+
+        @include m.phone {
+            gap: .5rem;
+            font-size: 1.5rem;
+        }
     }
 
     &__info-phone-text {
@@ -63,6 +68,11 @@
 
     &__info-phone-number {
         color: v.$white;
+    }
+
+    &__link {
+        color: v.$white;
+        text-decoration: none;
     }
 
 }
